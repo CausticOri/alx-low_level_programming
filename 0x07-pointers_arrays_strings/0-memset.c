@@ -8,7 +8,7 @@
  * Return: always 0 (success)
  */
 
-void *_memset(char *s,char b, unsigned int n)
+void *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
