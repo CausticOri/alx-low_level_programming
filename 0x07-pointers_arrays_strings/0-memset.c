@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _memset - entry point
@@ -8,7 +8,7 @@
  * Return: always 0 (success)
  */
 
-void *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
